@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Github } from 'lucide-react';
+import { Github, ExternalLink } from 'lucide-react';
 import ActivityCalendar from 'react-activity-calendar';
 
 interface Contribution {
@@ -61,7 +61,8 @@ export default function Home() {
               className="inline-flex items-center gap-2 text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors duration-200"
             >
               <Github className="w-6 h-6" />
-              <span className="text-lg font-medium">GitHub Activity</span>
+              <span className="text-lg font-medium">building cool stuff</span>
+              <ExternalLink className="w-4 h-4 ml-1" />
             </a>
           </div>
           
@@ -75,8 +76,8 @@ export default function Home() {
                 fontSize={12}
                 showWeekdayLabels
                 theme={{
-                  light: ['#ebedf0', '#9be9a8', '#40c463', '#30a14e', '#216e39'],
-                  dark: ['#161b22', '#0e4429', '#006d32', '#26a641', '#39d353']
+                  light: ['#ebedf0', '#40c463', '#30a14e', '#216e39', '#0d4818'],
+                  dark: ['#161b22', '#006d32', '#26a641', '#39d353', '#4ade80']
                 }}
               />
             </div>
