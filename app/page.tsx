@@ -21,7 +21,7 @@ interface GitHubAPIResponse {
 
 export default function Home() {
   const [githubCommitHistory, setGithubCommitHistory] = useState<GitHubAPIResponse | null>(null);
-  const [ghLoading, setGhLoading] = useState<Boolean>(false);
+  const [ghLoading, setGhLoading] = useState<boolean>(false);
   useEffect(() => {
     const fetchGithubData = async () => {
       try {
