@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>DevPortfolio - Projects Showcase</title>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Noto+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#135bec",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#101622",
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "sans-serif"],
+                        "body": ["Noto Sans", "sans-serif"],
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .scrollbar-hide::-webkit-scrollbar {
+            display: none;
+        }
+        .scrollbar-hide {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-white font-display">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<!-- Navigation -->
+<header class="sticky top-0 z-50 flex items-center justify-between border-b border-solid border-slate-200 dark:border-[#282e39] bg-background-light/80 dark:bg-[#111318]/80 backdrop-blur-md px-6 py-4 lg:px-20">
+<div class="flex items-center gap-3">
+<div class="flex items-center justify-center size-8 rounded bg-primary/10 text-primary">
+<span class="material-symbols-outlined">terminal</span>
+</div>
+<h2 class="text-xl font-bold leading-tight tracking-tight">DevPortfolio</h2>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Projects</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Resume</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">About</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Contact</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="flex items-center justify-center rounded-lg bg-primary px-5 py-2 text-sm font-bold text-white shadow-lg shadow-primary/20 hover:bg-primary/90 transition-all">
+                    Hire Me
+                </button>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="relative px-6 py-16 lg:px-20 lg:py-24">
+<div class="mx-auto max-w-6xl">
+<div class="flex flex-col gap-8 lg:flex-row lg:items-center">
+<div class="flex flex-col gap-6 lg:w-1/2">
+<div class="inline-flex w-fit items-center gap-2 rounded-full border border-primary/20 bg-primary/10 px-3 py-1 text-xs font-semibold text-primary">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+</span>
+                            Available for new opportunities
+                        </div>
+<h1 class="text-4xl font-black leading-tight tracking-tight lg:text-6xl">
+                            Architecting <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-500">Scalable Systems</span>
+</h1>
+<p class="text-lg text-slate-600 dark:text-slate-300 lg:pr-10">
+                            I build robust backend infrastructure and high-performance applications. Focusing on system design, security, and clean architecture.
+                        </p>
+<div class="flex flex-wrap gap-4">
+<button class="flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-bold text-white hover:bg-primary/90 transition-all">
+<span class="material-symbols-outlined text-[20px]">code</span>
+                                View GitHub
+                            </button>
+<button class="flex items-center gap-2 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-[#1c1f27] px-6 py-3 text-sm font-bold hover:bg-slate-50 dark:hover:bg-[#252a33] transition-all">
+<span class="material-symbols-outlined text-[20px]">download</span>
+                                Download CV
+                            </button>
+</div>
+</div>
+<div class="relative lg:w-1/2 mt-10 lg:mt-0">
+<div class="absolute -inset-4 rounded-xl bg-gradient-to-r from-primary to-purple-600 opacity-20 blur-2xl"></div>
+<div class="relative aspect-video w-full overflow-hidden rounded-xl border border-slate-200 dark:border-[#282e39] bg-[#1c1f27] shadow-2xl">
+<div class="flex items-center gap-2 border-b border-[#282e39] bg-[#111318] px-4 py-3">
+<div class="h-3 w-3 rounded-full bg-red-500"></div>
+<div class="h-3 w-3 rounded-full bg-yellow-500"></div>
+<div class="h-3 w-3 rounded-full bg-green-500"></div>
+</div>
+<div class="p-6 font-mono text-xs sm:text-sm text-slate-300 leading-relaxed overflow-hidden h-full">
+<p><span class="text-primary">func</span> <span class="text-yellow-400">main</span>() {</p>
+<p class="pl-4"><span class="text-slate-500">// Initialize distributed system</span></p>
+<p class="pl-4">cluster := <span class="text-purple-400">NewCluster</span>(Config{</p>
+<p class="pl-8">Nodes: <span class="text-orange-400">100</span>,</p>
+<p class="pl-8">Region: <span class="text-green-400">"us-east-1"</span>,</p>
+<p class="pl-4">})</p>
+<br/>
+<p class="pl-4"><span class="text-primary">go</span> cluster.<span class="text-purple-400">StartReplication</span>()</p>
+<p class="pl-4">log.<span class="text-purple-400">Printf</span>(<span class="text-green-400">"System operational at 99.99% uptime"</span>)</p>
+<p>}</p>
+<div class="mt-4 animate-pulse">
+<span class="text-primary">➜</span> <span class="text-slate-400">_</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Filters Section -->
+<section class="sticky top-[72px] z-40 w-full border-y border-slate-200 dark:border-[#282e39] bg-background-light/95 dark:bg-[#111318]/95 backdrop-blur-sm">
+<div class="mx-auto max-w-6xl px-6 py-4 lg:px-20">
+<div class="flex items-center justify-between overflow-x-auto scrollbar-hide gap-4">
+<div class="flex gap-2">
+<button class="group flex items-center gap-2 rounded-lg bg-primary px-4 py-2 text-sm font-medium text-white shadow-sm transition-all">
+<span class="material-symbols-outlined text-[18px]">apps</span>
+                            All Projects
+                        </button>
+<button class="group flex items-center gap-2 rounded-lg bg-white dark:bg-[#282e39] px-4 py-2 text-sm font-medium text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-[#353b47] transition-all">
+<span class="material-symbols-outlined text-[18px]">dns</span>
+                            Backend API
+                        </button>
+<button class="group flex items-center gap-2 rounded-lg bg-white dark:bg-[#282e39] px-4 py-2 text-sm font-medium text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-[#353b47] transition-all">
+<span class="material-symbols-outlined text-[18px]">database</span>
+                            Database
+                        </button>
+<button class="group flex items-center gap-2 rounded-lg bg-white dark:bg-[#282e39] px-4 py-2 text-sm font-medium text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-[#353b47] transition-all">
+<span class="material-symbols-outlined text-[18px]">cloud</span>
+                            DevOps
+                        </button>
+<button class="group flex items-center gap-2 rounded-lg bg-white dark:bg-[#282e39] px-4 py-2 text-sm font-medium text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-[#353b47] transition-all">
+<span class="material-symbols-outlined text-[18px]">terminal</span>
+                            CLI Tools
+                        </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Projects Grid -->
+<main class="mx-auto flex max-w-6xl flex-col gap-10 px-6 py-12 lg:px-20">
+<!-- Featured Project (Full Width) -->
+<div class="group relative overflow-hidden rounded-xl border border-slate-200 dark:border-[#282e39] bg-white dark:bg-[#1c1f27] transition-all hover:border-primary/50 hover:shadow-2xl hover:shadow-primary/5">
+<div class="flex flex-col lg:flex-row">
+<!-- Project Visual/Mockup -->
+<div class="relative w-full overflow-hidden bg-[#0f1115] lg:w-2/5 p-8 flex items-center justify-center">
+<div class="absolute inset-0 bg-[url('https://placeholder.pics/svg/300/101622/282e39')] opacity-20" data-alt="Subtle grid pattern background"></div>
+<div class="relative z-10 w-full rounded border border-slate-700 bg-[#0d0e12] p-4 shadow-xl">
+<div class="flex gap-1.5 mb-3">
+<div class="w-2.5 h-2.5 rounded-full bg-red-500"></div>
+<div class="w-2.5 h-2.5 rounded-full bg-yellow-500"></div>
+<div class="w-2.5 h-2.5 rounded-full bg-green-500"></div>
+</div>
+<div class="space-y-2">
+<div class="h-2 w-3/4 rounded bg-slate-700/50"></div>
+<div class="h-2 w-1/2 rounded bg-slate-700/50"></div>
+<div class="h-2 w-full rounded bg-slate-700/50"></div>
+<div class="h-24 w-full rounded border border-dashed border-slate-700/50 bg-slate-800/20 flex items-center justify-center">
+<span class="text-xs text-slate-500">System Diagram</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Content -->
+<div class="flex flex-1 flex-col justify-between p-6 lg:p-8">
+<div>
+<div class="mb-4 flex items-start justify-between">
+<div>
+<h3 class="text-2xl font-bold text-slate-900 dark:text-white">High-Frequency Trading Engine</h3>
+<p class="text-sm font-medium text-primary">Live Production</p>
+</div>
+<a class="rounded-full bg-slate-100 dark:bg-[#282e39] p-2 text-slate-600 dark:text-slate-300 transition-colors hover:text-primary" href="#">
+<span class="material-symbols-outlined">open_in_new</span>
+</a>
+</div>
+<p class="mb-6 text-slate-600 dark:text-[#9da6b9]">
+                                A low-latency matching engine capable of processing 10k orders per second. Implemented custom memory allocators to minimize GC pauses and optimized for microsecond-level execution. Features a distributed ledger for trade verification.
+                            </p>
+<div class="mb-6 flex flex-wrap gap-2">
+<span class="rounded bg-primary/10 px-2.5 py-1 text-xs font-bold uppercase tracking-wide text-primary border border-primary/20">Rust</span>
+<span class="rounded bg-slate-100 dark:bg-[#282e39] px-2.5 py-1 text-xs font-bold uppercase tracking-wide text-slate-600 dark:text-slate-300">gRPC</span>
+<span class="rounded bg-slate-100 dark:bg-[#282e39] px-2.5 py-1 text-xs font-bold uppercase tracking-wide text-slate-600 dark:text-slate-300">Redis</span>
+<span class="rounded bg-slate-100 dark:bg-[#282e39] px-2.5 py-1 text-xs font-bold uppercase tracking-wide text-slate-600 dark:text-slate-300">Kubernetes</span>
+<span class="rounded bg-slate-100 dark:bg-[#282e39] px-2.5 py-1 text-xs font-bold uppercase tracking-wide text-slate-600 dark:text-slate-300">Kafka</span>
+</div>
+</div>
+<div class="flex items-center gap-4 pt-4 border-t border-slate-200 dark:border-[#282e39]">
+<button class="flex items-center gap-2 rounded-lg bg-primary px-4 py-2 text-sm font-bold text-white hover:bg-primary/90">
+<span class="material-symbols-outlined text-[18px]">code</span>
+                                View Source
+                            </button>
+<button class="flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-bold text-slate-600 dark:text-slate-300 hover:text-white transition-colors">
+<span class="material-symbols-outlined text-[18px]">description</span>
+                                Read Case Study
+                            </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Grid for other projects -->
+<div class="grid gap-6 md:grid-cols-2 lg:grid-cols-2">
+<!-- Project Card 2 -->
+<div class="group flex flex-col overflow-hidden rounded-xl border border-slate-200 dark:border-[#282e39] bg-white dark:bg-[#1c1f27] transition-all hover:border-primary/40 hover:translate-y-[-2px] hover:shadow-lg">
+<div class="relative h-48 overflow-hidden bg-slate-900" data-alt="Abstract visualization of microservices architecture">
+<div class="absolute inset-0 bg-gradient-to-br from-slate-800 to-[#101622]"></div>
+<div class="absolute bottom-4 left-4 right-4 flex items-center justify-between">
+<div class="flex items-center gap-2 rounded bg-black/50 backdrop-blur-md px-2 py-1">
+<span class="material-symbols-outlined text-white text-[16px]">hub</span>
+<span class="text-xs font-medium text-white">Microservices</span>
+</div>
+</div>
+<!-- Decorative elements -->
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-primary/20 rounded-full blur-3xl"></div>
+<svg class="absolute inset-0 h-full w-full opacity-20" xmlns="http://www.w3.org/2000/svg">
+<pattern height="40" id="grid-pattern" patternunits="userSpaceOnUse" width="40">
+<path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" stroke-width="0.5"></path>
+</pattern>
+<rect fill="url(#grid-pattern)" height="100%" width="100%"></rect>
+</svg>
+</div>
+<div class="flex flex-1 flex-col p-6">
+<div class="flex items-center justify-between mb-2">
+<h3 class="text-xl font-bold text-slate-900 dark:text-white">Distributed Task Queue</h3>
+<div class="flex gap-2">
+<a class="text-slate-500 hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">code</span></a>
+<a class="text-slate-500 hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">open_in_new</span></a>
+</div>
+</div>
+<p class="mb-6 line-clamp-3 text-sm text-slate-600 dark:text-[#9da6b9]">
+                            A robust task queue system built to handle asynchronous job processing across multiple worker nodes. Features include priority queuing, delayed jobs, and automatic retries with exponential backoff.
+                        </p>
+<div class="mt-auto">
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="rounded bg-slate-100 dark:bg-[#282e39] px-2 py-1 text-[10px] font-bold uppercase tracking-wide text-slate-600 dark:text-slate-300">Go</span>
+<span class="rounded bg-slate-100 dark:bg-[#282e39] px-2 py-1 text-[10px] font-bold uppercase tracking-wide text-slate-600 dark:text-slate-300">RabbitMQ</span>
+<span class="rounded bg-slate-100 dark:bg-[#282e39] px-2 py-1 text-[10px] font-bold uppercase tracking-wide text-slate-600 dark:text-slate-300">PostgreSQL</span>
+</div>
+<div class="flex items-center gap-2 text-xs text-slate-500">
+<span class="material-symbols-outlined text-[14px]">history</span>
+<span>Updated 2 days ago</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Project Card 3 -->
+<div class="group flex flex-col overflow-hidden rounded-xl border border-slate-200 dark:border-[#282e39] bg-white dark:bg-[#1c1f27] transition-all hover:border-primary/40 hover:translate-y-[-2px] hover:shadow-lg">
+<div class="relative h-48 overflow-hidden bg-slate-900" data-alt="Abstract database schema visualization">
+<div class="absolute inset-0 bg-gradient-to-br from-[#1c1f27] to-[#135bec]/20"></div>
+<div class="absolute bottom-4 left-4 right-4 flex items-center justify-between">
+<div class="flex items-center gap-2 rounded bg-black/50 backdrop-blur-md px-2 py-1">
+<span class="material-symbols-outlined text-white text-[16px]">security</span>
+<span class="text-xs font-medium text-white">Auth &amp; Security</span>
+</div>
+</div>
+<!-- Decorative Code -->
+<div class="absolute top-4 left-4 opacity-30 font-mono text-[10px] text-primary">
+                            JWT_SECRET=*****<br/>
+                            OAUTH_CLIENT_ID=*****<br/>
+                            REFRESH_TOKEN_EXP=7d
+                        </div>
+</div>
+<div class="flex flex-1 flex-col p-6">
+<div class="flex items-center justify-between mb-2">
+<h3 class="text-xl font-bold text-slate-900 dark:text-white">AuthZero-Clone Service</h3>
+<div class="flex gap-2">
+<a class="text-slate-500 hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">code</span></a>
+</div>
+</div>
+<p class="mb-6 line-clamp-3 text-sm text-slate-600 dark:text-[#9da6b9]">
+                            A centralized authentication microservice supporting OAuth2, OIDC, and JWT management. Designed for multi-tenant SaaS applications with role-based access control (RBAC).
+                        </p>
+<div class="mt-auto">
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="rounded bg-slate-100 dark:bg-[#282e39] px-2 py-1 text-[10px] font-bold uppercase tracking-wide text-slate-600 dark:text-slate-300">Node.js</span>
+<span class="rounded bg-slate-100 dark:bg-[#282e39] px-2 py-1 text-[10px] font-bold uppercase tracking-wide text-slate-600 dark:text-slate-300">TypeScript</span>
+<span class="rounded bg-slate-100 dark:bg-[#282e39] px-2 py-1 text-[10px] font-bold uppercase tracking-wide text-slate-600 dark:text-slate-300">Redis</span>
+<span class="rounded bg-slate-100 dark:bg-[#282e39] px-2 py-1 text-[10px] font-bold uppercase tracking-wide text-slate-600 dark:text-slate-300">Docker</span>
+</div>
+<div class="flex items-center gap-2 text-xs text-slate-500">
+<span class="material-symbols-outlined text-[14px]">history</span>
+<span>Updated last month</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Project Card 4 -->
+<div class="group flex flex-col overflow-hidden rounded-xl border border-slate-200 dark:border-[#282e39] bg-white dark:bg-[#1c1f27] transition-all hover:border-primary/40 hover:translate-y-[-2px] hover:shadow-lg">
+<div class="relative h-48 overflow-hidden bg-slate-900" data-alt="Dark map visualization of data points">
+<div class="absolute inset-0 bg-[#0a0c10]"></div>
+<div class="absolute inset-0" style="background-image: radial-gradient(#334155 1px, transparent 1px); background-size: 20px 20px; opacity: 0.3;"></div>
+<div class="absolute bottom-4 left-4 right-4 flex items-center justify-between">
+<div class="flex items-center gap-2 rounded bg-black/50 backdrop-blur-md px-2 py-1">
+<span class="material-symbols-outlined text-white text-[16px]">analytics</span>
+<span class="text-xs font-medium text-white">Data Engineering</span>
+</div>
+</div>
+</div>
+<div class="flex flex-1 flex-col p-6">
+<div class="flex items-center justify-between mb-2">
+<h3 class="text-xl font-bold text-slate-900 dark:text-white">Real-time Analytics Pipeline</h3>
+<div class="flex gap-2">
+<a class="text-slate-500 hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">code</span></a>
+<a class="text-slate-500 hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">open_in_new</span></a>
+</div>
+</div>
+<p class="mb-6 line-clamp-3 text-sm text-slate-600 dark:text-[#9da6b9]">
+                            ETL pipeline processing 50GB+ of daily log data. Aggregates user behavior metrics in real-time and pipes them into a data warehouse for visualization.
+                        </p>
+<div class="mt-auto">
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="rounded bg-slate-100 dark:bg-[#282e39] px-2 py-1 text-[10px] font-bold uppercase tracking-wide text-slate-600 dark:text-slate-300">Python</span>
+<span class="rounded bg-slate-100 dark:bg-[#282e39] px-2 py-1 text-[10px] font-bold uppercase tracking-wide text-slate-600 dark:text-slate-300">Apache Airflow</span>
+<span class="rounded bg-slate-100 dark:bg-[#282e39] px-2 py-1 text-[10px] font-bold uppercase tracking-wide text-slate-600 dark:text-slate-300">AWS S3</span>
+</div>
+<div class="flex items-center gap-2 text-xs text-slate-500">
+<span class="material-symbols-outlined text-[14px]">history</span>
+<span>Updated 3 weeks ago</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Project Card 5 -->
+<div class="group flex flex-col overflow-hidden rounded-xl border border-slate-200 dark:border-[#282e39] bg-white dark:bg-[#1c1f27] transition-all hover:border-primary/40 hover:translate-y-[-2px] hover:shadow-lg">
+<div class="relative h-48 overflow-hidden bg-slate-900" data-alt="Abstract representation of e-commerce API endpoints">
+<div class="absolute inset-0 bg-gradient-to-t from-[#1c1f27] to-slate-800"></div>
+<div class="absolute bottom-4 left-4 right-4 flex items-center justify-between">
+<div class="flex items-center gap-2 rounded bg-black/50 backdrop-blur-md px-2 py-1">
+<span class="material-symbols-outlined text-white text-[16px]">shopping_cart</span>
+<span class="text-xs font-medium text-white">E-commerce</span>
+</div>
+</div>
+</div>
+<div class="flex flex-1 flex-col p-6">
+<div class="flex items-center justify-between mb-2">
+<h3 class="text-xl font-bold text-slate-900 dark:text-white">Headless Shop API</h3>
+<div class="flex gap-2">
+<a class="text-slate-500 hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">code</span></a>
+<a class="text-slate-500 hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">open_in_new</span></a>
+</div>
+</div>
+<p class="mb-6 line-clamp-3 text-sm text-slate-600 dark:text-[#9da6b9]">
+                            A flexible, headless e-commerce backend built with GraphQL. Supports inventory management, complex tax calculations, and multiple payment gateway integrations.
+                        </p>
+<div class="mt-auto">
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="rounded bg-slate-100 dark:bg-[#282e39] px-2 py-1 text-[10px] font-bold uppercase tracking-wide text-slate-600 dark:text-slate-300">GraphQL</span>
+<span class="rounded bg-slate-100 dark:bg-[#282e39] px-2 py-1 text-[10px] font-bold uppercase tracking-wide text-slate-600 dark:text-slate-300">NestJS</span>
+<span class="rounded bg-slate-100 dark:bg-[#282e39] px-2 py-1 text-[10px] font-bold uppercase tracking-wide text-slate-600 dark:text-slate-300">Stripe</span>
+</div>
+<div class="flex items-center gap-2 text-xs text-slate-500">
+<span class="material-symbols-outlined text-[14px]">history</span>
+<span>Updated 5 days ago</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Tech Stack / Skills Summary -->
+<section class="bg-slate-100 dark:bg-[#151920] py-16 px-6 lg:px-20 border-t border-slate-200 dark:border-[#282e39]">
+<div class="mx-auto max-w-6xl">
+<h2 class="mb-10 text-center text-2xl font-bold text-slate-900 dark:text-white">Technical Arsenal</h2>
+<div class="grid grid-cols-2 gap-4 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6">
+<!-- Skill Item -->
+<div class="flex flex-col items-center justify-center gap-3 rounded-xl border border-slate-200 dark:border-[#282e39] bg-white dark:bg-[#1c1f27] p-4 transition-all hover:border-primary hover:shadow-md">
+<span class="material-symbols-outlined text-4xl text-[#00ADD8]">flutter_dash</span> <!-- Using generic icon to represent Go as per constraints -->
+<span class="text-sm font-semibold text-slate-700 dark:text-slate-300">Go</span>
+</div>
+<div class="flex flex-col items-center justify-center gap-3 rounded-xl border border-slate-200 dark:border-[#282e39] bg-white dark:bg-[#1c1f27] p-4 transition-all hover:border-primary hover:shadow-md">
+<span class="material-symbols-outlined text-4xl text-orange-600">settings_system_daydream</span> <!-- Rust metaphor -->
+<span class="text-sm font-semibold text-slate-700 dark:text-slate-300">Rust</span>
+</div>
+<div class="flex flex-col items-center justify-center gap-3 rounded-xl border border-slate-200 dark:border-[#282e39] bg-white dark:bg-[#1c1f27] p-4 transition-all hover:border-primary hover:shadow-md">
+<span class="material-symbols-outlined text-4xl text-green-600">terminal</span>
+<span class="text-sm font-semibold text-slate-700 dark:text-slate-300">Node.js</span>
+</div>
+<div class="flex flex-col items-center justify-center gap-3 rounded-xl border border-slate-200 dark:border-[#282e39] bg-white dark:bg-[#1c1f27] p-4 transition-all hover:border-primary hover:shadow-md">
+<span class="material-symbols-outlined text-4xl text-blue-400">storage</span>
+<span class="text-sm font-semibold text-slate-700 dark:text-slate-300">PostgreSQL</span>
+</div>
+<div class="flex flex-col items-center justify-center gap-3 rounded-xl border border-slate-200 dark:border-[#282e39] bg-white dark:bg-[#1c1f27] p-4 transition-all hover:border-primary hover:shadow-md">
+<span class="material-symbols-outlined text-4xl text-red-500">memory</span>
+<span class="text-sm font-semibold text-slate-700 dark:text-slate-300">Redis</span>
+</div>
+<div class="flex flex-col items-center justify-center gap-3 rounded-xl border border-slate-200 dark:border-[#282e39] bg-white dark:bg-[#1c1f27] p-4 transition-all hover:border-primary hover:shadow-md">
+<span class="material-symbols-outlined text-4xl text-blue-600">view_in_ar</span>
+<span class="text-sm font-semibold text-slate-700 dark:text-slate-300">Docker</span>
+</div>
+<div class="flex flex-col items-center justify-center gap-3 rounded-xl border border-slate-200 dark:border-[#282e39] bg-white dark:bg-[#1c1f27] p-4 transition-all hover:border-primary hover:shadow-md">
+<span class="material-symbols-outlined text-4xl text-blue-500">anchor</span>
+<span class="text-sm font-semibold text-slate-700 dark:text-slate-300">Kubernetes</span>
+</div>
+<div class="flex flex-col items-center justify-center gap-3 rounded-xl border border-slate-200 dark:border-[#282e39] bg-white dark:bg-[#1c1f27] p-4 transition-all hover:border-primary hover:shadow-md">
+<span class="material-symbols-outlined text-4xl text-yellow-500">cloud</span>
+<span class="text-sm font-semibold text-slate-700 dark:text-slate-300">AWS</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="mt-auto border-t border-slate-200 dark:border-[#282e39] bg-background-light dark:bg-[#111318] px-6 py-10 lg:px-20">
+<div class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-6 md:flex-row">
+<div class="text-center md:text-left">
+<h3 class="text-lg font-bold text-slate-900 dark:text-white">Let's build something scalable.</h3>
+<p class="mt-2 text-sm text-slate-600 dark:text-[#9da6b9]">Open for backend and full-stack opportunities.</p>
+</div>
+<div class="flex gap-6">
+<a class="text-slate-500 hover:text-primary transition-colors" href="#">GitHub</a>
+<a class="text-slate-500 hover:text-primary transition-colors" href="#">LinkedIn</a>
+<a class="text-slate-500 hover:text-primary transition-colors" href="#">Twitter</a>
+<a class="text-slate-500 hover:text-primary transition-colors" href="#">Email</a>
+</div>
+<div class="text-sm text-slate-500">
+                    © 2023 DevPortfolio. All rights reserved.
+                </div>
+</div>
+</footer>
+</div>
+</body></html>
