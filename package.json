@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "15.3.8",
+    "next": "^15.5.9",
     "react": "^19.0.0",
     "react-activity-calendar": "^2.7.13",
     "react-dom": "^19.0.0",

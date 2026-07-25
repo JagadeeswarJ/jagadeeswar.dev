@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Skills &amp; Technologies - DevPortfolio</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Noto+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Theme Configuration -->
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#135bec",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#101622",
+                        "card-light": "#ffffff",
+                        "card-dark": "#1a1d23",
+                        "border-light": "#e5e7eb",
+                        "border-dark": "#282e39",
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "sans-serif"],
+                        "body": ["Noto Sans", "sans-serif"],
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-[#111318] dark:text-white font-body overflow-x-hidden transition-colors duration-200">
+<div class="relative flex h-full min-h-screen w-full flex-col">
+<!-- Navbar -->
+<header class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-solid border-b-border-light dark:border-b-border-dark bg-background-light/95 dark:bg-background-dark/95 backdrop-blur-md px-10 py-3">
+<div class="flex items-center gap-4">
+<div class="size-8 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-3xl">terminal</span>
+</div>
+<h2 class="text-lg font-bold leading-tight tracking-[-0.015em] font-display">DevPortfolio</h2>
+</div>
+<div class="flex flex-1 justify-end gap-8">
+<div class="hidden md:flex items-center gap-9">
+<a class="text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Projects</a>
+<a class="text-primary text-sm font-bold leading-normal" href="#">Skills</a>
+<a class="text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">About</a>
+<a class="text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Contact</a>
+</div>
+<button class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary hover:bg-primary/90 transition-colors text-white text-sm font-bold leading-normal tracking-[0.015em]">
+<span class="truncate">Download Resume</span>
+</button>
+</div>
+</header>
+<main class="flex-1 flex flex-col items-center py-10 px-4 sm:px-10 lg:px-40">
+<div class="max-w-[1200px] w-full flex flex-col gap-8">
+<!-- Page Heading -->
+<div class="flex flex-col gap-3">
+<h1 class="text-4xl md:text-5xl font-black leading-tight tracking-[-0.033em] font-display">Skills &amp; Technologies</h1>
+<p class="text-[#64748b] dark:text-[#9da6b9] text-lg font-normal leading-normal max-w-2xl">
+                        Architecting scalable backend systems, designing robust database schemas, and streamlining deployments with modern DevOps practices.
+                    </p>
+</div>
+<!-- Stats Summary -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+<div class="flex flex-col gap-2 rounded-xl p-6 bg-card-light dark:bg-card-dark border border-border-light dark:border-border-dark shadow-sm group hover:border-primary/50 transition-colors">
+<div class="flex items-center justify-between">
+<p class="text-sm font-medium leading-normal text-primary">Core Focus</p>
+<span class="material-symbols-outlined text-primary group-hover:scale-110 transition-transform">dns</span>
+</div>
+<p class="text-2xl font-bold leading-tight font-display mt-2">Backend</p>
+<p class="text-xs text-[#64748b] dark:text-[#9da6b9]">Expert Proficiency</p>
+</div>
+<div class="flex flex-col gap-2 rounded-xl p-6 bg-card-light dark:bg-card-dark border border-border-light dark:border-border-dark shadow-sm group hover:border-primary/50 transition-colors">
+<div class="flex items-center justify-between">
+<p class="text-sm font-medium leading-normal text-primary">Storage</p>
+<span class="material-symbols-outlined text-primary group-hover:scale-110 transition-transform">database</span>
+</div>
+<p class="text-2xl font-bold leading-tight font-display mt-2">Databases</p>
+<p class="text-xs text-[#64748b] dark:text-[#9da6b9]">Advanced</p>
+</div>
+<div class="flex flex-col gap-2 rounded-xl p-6 bg-card-light dark:bg-card-dark border border-border-light dark:border-border-dark shadow-sm group hover:border-primary/50 transition-colors">
+<div class="flex items-center justify-between">
+<p class="text-sm font-medium leading-normal text-primary">Infrastructure</p>
+<span class="material-symbols-outlined text-primary group-hover:scale-110 transition-transform">cloud_sync</span>
+</div>
+<p class="text-2xl font-bold leading-tight font-display mt-2">DevOps</p>
+<p class="text-xs text-[#64748b] dark:text-[#9da6b9]">Proficient</p>
+</div>
+<div class="flex flex-col gap-2 rounded-xl p-6 bg-card-light dark:bg-card-dark border border-border-light dark:border-border-dark shadow-sm group hover:border-primary/50 transition-colors">
+<div class="flex items-center justify-between">
+<p class="text-sm font-medium leading-normal text-primary">Client Side</p>
+<span class="material-symbols-outlined text-primary group-hover:scale-110 transition-transform">web</span>
+</div>
+<p class="text-2xl font-bold leading-tight font-display mt-2">Frontend</p>
+<p class="text-xs text-[#64748b] dark:text-[#9da6b9]">Competent</p>
+</div>
+</div>
+<!-- Main Skills Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+<!-- Backend (Featured - spans full width or large portion) -->
+<div class="lg:col-span-8 flex flex-col gap-4 rounded-xl p-8 bg-card-light dark:bg-card-dark border border-border-light dark:border-border-dark relative overflow-hidden">
+<!-- Decorative background glow -->
+<div class="absolute top-0 right-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none"></div>
+<div class="flex items-center gap-3 mb-2">
+<span class="material-symbols-outlined text-primary text-3xl">terminal</span>
+<h2 class="text-2xl font-bold font-display">Backend Engineering</h2>
+</div>
+<p class="text-[#64748b] dark:text-[#9da6b9] mb-4">High-performance server-side logic, API development, and microservices architecture.</p>
+<div class="flex flex-wrap gap-3">
+<!-- Skill Chip -->
+<div class="flex h-10 items-center justify-center gap-x-2 rounded-lg bg-background-light dark:bg-[#282e39] border border-border-light dark:border-border-dark pl-3 pr-4 hover:border-primary/50 transition-colors cursor-default">
+<span class="material-symbols-outlined text-primary text-[20px]">javascript</span>
+<p class="text-sm font-medium leading-normal">Node.js</p>
+</div>
+<div class="flex h-10 items-center justify-center gap-x-2 rounded-lg bg-background-light dark:bg-[#282e39] border border-border-light dark:border-border-dark pl-3 pr-4 hover:border-primary/50 transition-colors cursor-default">
+<span class="material-symbols-outlined text-primary text-[20px]">code</span>
+<p class="text-sm font-medium leading-normal">Python</p>
+</div>
+<div class="flex h-10 items-center justify-center gap-x-2 rounded-lg bg-background-light dark:bg-[#282e39] border border-border-light dark:border-border-dark pl-3 pr-4 hover:border-primary/50 transition-colors cursor-default">
+<span class="material-symbols-outlined text-primary text-[20px]">fast_forward</span>
+<p class="text-sm font-medium leading-normal">Go</p>
+</div>
+<div class="flex h-10 items-center justify-center gap-x-2 rounded-lg bg-background-light dark:bg-[#282e39] border border-border-light dark:border-border-dark pl-3 pr-4 hover:border-primary/50 transition-colors cursor-default">
+<span class="material-symbols-outlined text-primary text-[20px]">coffee</span>
+<p class="text-sm font-medium leading-normal">Java</p>
+</div>
+<div class="flex h-10 items-center justify-center gap-x-2 rounded-lg bg-background-light dark:bg-[#282e39] border border-border-light dark:border-border-dark pl-3 pr-4 hover:border-primary/50 transition-colors cursor-default">
+<span class="material-symbols-outlined text-primary text-[20px]">hub</span>
+<p class="text-sm font-medium leading-normal">Microservices</p>
+</div>
+<div class="flex h-10 items-center justify-center gap-x-2 rounded-lg bg-background-light dark:bg-[#282e39] border border-border-light dark:border-border-dark pl-3 pr-4 hover:border-primary/50 transition-colors cursor-default">
+<span class="material-symbols-outlined text-primary text-[20px]">api</span>
+<p class="text-sm font-medium leading-normal">REST &amp; GraphQL</p>
+</div>
+<div class="flex h-10 items-center justify-center gap-x-2 rounded-lg bg-background-light dark:bg-[#282e39] border border-border-light dark:border-border-dark pl-3 pr-4 hover:border-primary/50 transition-colors cursor-default">
+<span class="material-symbols-outlined text-primary text-[20px]">security</span>
+<p class="text-sm font-medium leading-normal">OAuth 2.0</p>
+</div>
+</div>
+</div>
+<!-- Frontend (Secondary) -->
+<div class="lg:col-span-4 flex flex-col gap-4 rounded-xl p-8 bg-card-light dark:bg-card-dark border border-border-light dark:border-border-dark">
+<div class="flex items-center gap-3 mb-2">
+<span class="material-symbols-outlined text-[#64748b] dark:text-[#9da6b9] text-3xl">desktop_windows</span>
+<h2 class="text-xl font-bold font-display">Frontend</h2>
+</div>
+<p class="text-[#64748b] dark:text-[#9da6b9] text-sm mb-4">Building functional and responsive interfaces.</p>
+<div class="flex flex-wrap gap-2">
+<div class="flex h-8 items-center justify-center gap-x-2 rounded bg-background-light dark:bg-[#282e39] border border-border-light dark:border-border-dark pl-2 pr-3 hover:border-primary/30 transition-colors">
+<span class="material-symbols-outlined text-sm">science</span>
+<p class="text-xs font-medium">React</p>
+</div>
+<div class="flex h-8 items-center justify-center gap-x-2 rounded bg-background-light dark:bg-[#282e39] border border-border-light dark:border-border-dark pl-2 pr-3 hover:border-primary/30 transition-colors">
+<span class="material-symbols-outlined text-sm">html</span>
+<p class="text-xs font-medium">TypeScript</p>
+</div>
+<div class="flex h-8 items-center justify-center gap-x-2 rounded bg-background-light dark:bg-[#282e39] border border-border-light dark:border-border-dark pl-2 pr-3 hover:border-primary/30 transition-colors">
+<span class="material-symbols-outlined text-sm">brush</span>
+<p class="text-xs font-medium">Tailwind CSS</p>
+</div>
+<div class="flex h-8 items-center justify-center gap-x-2 rounded bg-background-light dark:bg-[#282e39] border border-border-light dark:border-border-dark pl-2 pr-3 hover:border-primary/30 transition-colors">
+<span class="material-symbols-outlined text-sm">bolt</span>
+<p class="text-xs font-medium">Next.js</p>
+</div>
+</div>
+</div>
+<!-- Databases -->
+<div class="lg:col-span-6 flex flex-col gap-4 rounded-xl p-8 bg-card-light dark:bg-card-dark border border-border-light dark:border-border-dark">
+<div class="flex items-center gap-3 mb-2">
+<span class="material-symbols-outlined text-primary text-3xl">table_rows</span>
+<h2 class="text-xl font-bold font-display">Data Persistence</h2>
+</div>
+<div class="flex flex-col gap-3">
+<!-- Detailed Row Item -->
+<div class="flex items-center justify-between p-3 rounded-lg bg-background-light dark:bg-[#111318] border border-border-light dark:border-border-dark">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-[#64748b]">table_view</span>
+<span class="font-medium text-sm">PostgreSQL</span>
+</div>
+<div class="h-1.5 w-24 bg-[#282e39] rounded-full overflow-hidden">
+<div class="h-full bg-primary w-[95%]"></div>
+</div>
+</div>
+<div class="flex items-center justify-between p-3 rounded-lg bg-background-light dark:bg-[#111318] border border-border-light dark:border-border-dark">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-[#64748b]">data_object</span>
+<span class="font-medium text-sm">MongoDB</span>
+</div>
+<div class="h-1.5 w-24 bg-[#282e39] rounded-full overflow-hidden">
+<div class="h-full bg-primary w-[85%]"></div>
+</div>
+</div>
+<div class="flex items-center justify-between p-3 rounded-lg bg-background-light dark:bg-[#111318] border border-border-light dark:border-border-dark">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-[#64748b]">bolt</span>
+<span class="font-medium text-sm">Redis</span>
+</div>
+<div class="h-1.5 w-24 bg-[#282e39] rounded-full overflow-hidden">
+<div class="h-full bg-primary w-[80%]"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- DevOps -->
+<div class="lg:col-span-6 flex flex-col gap-4 rounded-xl p-8 bg-card-light dark:bg-card-dark border border-border-light dark:border-border-dark">
+<div class="flex items-center gap-3 mb-2">
+<span class="material-symbols-outlined text-primary text-3xl">settings_system_daydream</span>
+<h2 class="text-xl font-bold font-display">DevOps &amp; Infrastructure</h2>
+</div>
+<div class="grid grid-cols-2 gap-3">
+<div class="flex h-12 items-center gap-x-3 rounded-lg bg-background-light dark:bg-[#111318] border border-border-light dark:border-border-dark px-4">
+<span class="material-symbols-outlined text-primary text-[20px]">deployed_code</span>
+<p class="text-sm font-medium leading-normal">Docker</p>
+</div>
+<div class="flex h-12 items-center gap-x-3 rounded-lg bg-background-light dark:bg-[#111318] border border-border-light dark:border-border-dark px-4">
+<span class="material-symbols-outlined text-primary text-[20px]">anchor</span>
+<p class="text-sm font-medium leading-normal">Kubernetes</p>
+</div>
+<div class="flex h-12 items-center gap-x-3 rounded-lg bg-background-light dark:bg-[#111318] border border-border-light dark:border-border-dark px-4">
+<span class="material-symbols-outlined text-primary text-[20px]">cloud</span>
+<p class="text-sm font-medium leading-normal">AWS</p>
+</div>
+<div class="flex h-12 items-center gap-x-3 rounded-lg bg-background-light dark:bg-[#111318] border border-border-light dark:border-border-dark px-4">
+<span class="material-symbols-outlined text-primary text-[20px]">rocket_launch</span>
+<p class="text-sm font-medium leading-normal">CI/CD</p>
+</div>
+<div class="flex h-12 items-center gap-x-3 rounded-lg bg-background-light dark:bg-[#111318] border border-border-light dark:border-border-dark px-4">
+<span class="material-symbols-outlined text-primary text-[20px]">terminal</span>
+<p class="text-sm font-medium leading-normal">Linux</p>
+</div>
+<div class="flex h-12 items-center gap-x-3 rounded-lg bg-background-light dark:bg-[#111318] border border-border-light dark:border-border-dark px-4">
+<span class="material-symbols-outlined text-primary text-[20px]">monitoring</span>
+<p class="text-sm font-medium leading-normal">Prometheus</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+</body></html>
