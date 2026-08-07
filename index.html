@@ -1,0 +1,1047 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Jagadeeswar Jonnadula</title>
+  </head>
+
+  <body>
+    <div id="loader-wrapper">
+      <div id="loader-content">
+        <div id="boot-sequence"></div>
+        <div class="progress-bar"></div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg pill-nav">
+      <a class="navbar-brand" href="#">JJ</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="home">
+      <div class="container">
+        <img
+          src="https://media4.giphy.com/media/zhYSVCirREeIZtONCI/giphy.gif?cid=ecf05e475a19gsu3q6yj834y8ws8yvouo2gct4ftuhqg4z7z&ep=v1_stickers_search&rid=giphy.gif&ct=s?raw=true"
+          alt="Hologram Matrix Matrix Grid"
+          class="img-fluid"
+          style="width: 300px; height: 300px"
+        />
+        <h2>Hi! I'm</h2>
+        <h1 data-value="Jagadeeswar Jonnadula">Jagadeeswar Jonnadula</h1>
+        <p class="typing" style="padding-bottom: 10px">
+          Hey there! I'm a backend-focused software engineer who loves building
+          stateless, scalable, cloud-native architectures, distributed systems,
+          and AI-powered automation pipelines.
+        </p>
+        <div class="col-md-12 text-center">
+          <a href="https://github.com/JagadeeswarJ" target="_blank"
+            ><i class="fab fa-github fa-lg text-light mr-3 social-icons"></i
+          ></a>
+          <a href="https://linkedin.com/in/JagadeeswarJ" target="_blank"
+            ><i class="fab fa-linkedin fa-lg text-light mr-3 social-icons"></i
+          ></a>
+          <a href="mailto:jagadeeswar079@gmail.com"
+            ><i class="far fa-envelope fa-lg text-light mr-3 social-icons"></i
+          ></a>
+        </div>
+        <div class="btn-container" style="padding-top: 10px">
+          <a href="/resume" class="resbtn">Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="mt-5">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          I am fundamentally a backend-focused software engineer with an
+          implementation-first mindset. I solve system-level problems over
+          UI-focused tasks, with a clear bias toward infrastructure logic, data
+          flow design, event-driven systems, and cloud-native architectures. I
+          thrive on handling real-world production constraints — retries,
+          failures, idempotency, and distributed consistency.
+        </p>
+        <div class="about-nav-container">
+          <div class="about-nav">
+            <div class="slider"></div>
+            <button class="nav-btn active" data-target="skills">Skills</button>
+            <button class="nav-btn" data-target="github">Github</button>
+          </div>
+        </div>
+        <br />
+        <div class="about-content about-content-wrapper">
+          <div class="content-section skills active">
+            <h3>Core Engineering Strengths</h3>
+            <br />
+            <div class="row">
+              <div class="col-md-8 mb-4">
+                <div class="glass-container" style="height: 400px">
+                  <img
+                    src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80"
+                    alt="Backend & Cloud Architecture"
+                    class="imgs"
+                  />
+                  <div class="contents">
+                    <h4>Backend & Cloud-Native Systems</h4>
+                    <p>
+                      Designing stateless, scalable, cloud-native architectures
+                      on AWS and GCP. Highly experienced with microservices,
+                      serverless computing (Lambda, API Gateway, EventBridge),
+                      and optimizing APIs and data pipelines for heavy
+                      production loads.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 mb-4">
+                <div class="glass-container" style="height: 400px">
+                  <img
+                    src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80"
+                    alt="Distributed Concurrency"
+                    class="imgs"
+                  />
+                  <div class="contents">
+                    <h4>Distributed Concurrency</h4>
+                    <p>
+                      Handling horizontal scaling, workload distribution, and
+                      concurrency. Skilled in lease-based concurrency patterns
+                      with Firestore atomic transactions to process concurrent
+                      workflows without failures.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 mb-4">
+                <div class="glass-container" style="height: 400px">
+                  <img
+                    src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=600&q=80"
+                    alt="Reliable Payments & Billing"
+                    class="imgs"
+                  />
+                  <div class="contents">
+                    <h4>Reliable Payments & Billing</h4>
+                    <p>
+                      End-to-end payment and subscription systems integration
+                      using Razorpay, PayPal, and Apple Pay. Engineering robust
+                      transaction lifecycle handlers, webhook verification,
+                      double-charge prevention, and idempotent transactions.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-8 mb-4">
+                <div class="glass-container" style="height: 400px">
+                  <img
+                    src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=800&q=80"
+                    alt="Production AI Integration"
+                    class="imgs"
+                  />
+                  <div class="contents">
+                    <h4>Production AI Integration</h4>
+                    <p>
+                      Integrating AI as a reliable system component. Building
+                      automated multi-agent evaluation pipelines (Vertex AI,
+                      Gemini, Claude) with context-aware conversation history,
+                      prompt optimizations, and RAG architectures.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <br /><br />
+            <h3>Education & Certifications</h3>
+            <br />
+            <div class="row">
+              <div class="col-md-6 mb-4">
+                <div class="glass-container" style="height: 400px">
+                  <img
+                    src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=600&q=80"
+                    alt="Education VNRVJIET"
+                    class="imgs"
+                  />
+                  <div class="contents">
+                    <h4>Education — VNRVJIET</h4>
+                    <p style="font-size: 1.1rem; line-height: 1.6">
+                      <strong
+                        >VNR Vignana Jyothi Institute of Engineering and
+                        Technology</strong
+                      ><br />
+                      B.Tech — Computer Science and Engineering (Data
+                      Science)<br />
+                      2023 – 2027 | Hyderabad, India<br />
+                      CGPA: 9.1
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mb-4">
+                <div class="glass-container" style="height: 400px">
+                  <img
+                    src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?auto=format&fit=crop&w=600&q=80"
+                    alt="Certifications"
+                    class="imgs"
+                  />
+                  <div class="contents">
+                    <h4>Professional Certifications</h4>
+                    <p style="font-size: 1.1rem; line-height: 1.8">
+                      <strong
+                        >AWS Certified Cloud Practitioner Essentials</strong
+                      ><br />
+                      Amazon Web Services | March 2025<br /><br />
+                      <strong>SQL (Intermediate)</strong><br />
+                      HackerRank | May 2024
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content-section github">
+            <div class="about-container">
+              <img
+                src="https://github-readme-streak-stats.herokuapp.com/?user=JagadeeswarJ&stroke=ffffff&theme=transparent&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true"
+                href="https://github.com/JagadeeswarJ"
+                alt="GitHub Streak"
+                class="img-fluid"
+                style="width: 800px; height: auto"
+              />
+            </div>
+            <br />
+            <div class="about-container">
+              <img
+                src="https://github-readme-activity-graph.vercel.app/graph?username=JagadeeswarJ&radius=16&theme=high-contrast&area=true&order=5&hide_border=true&hide_title=true&bg_color=0"
+                alt="GitHub Status"
+                class="img-fluid"
+                style="width: 800px; height: auto"
+              />
+            </div>
+            <br />
+            <div
+              class="about-container"
+              style="display: flex; justify-content: center"
+            >
+              <img
+                src="https://github-readme-stats.vercel.app/api/top-langs/?username=JagadeeswarJ&layout=compact&hide_title=true&theme=transparent&hide_border=true&text_bold=true&text_color=ffffff"
+                alt="GitHub Languages"
+                class="img-fluid"
+              />
+              <img
+                src="https://github-readme-stats.vercel.app/api?username=JagadeeswarJ&hide_title=true&hide_rank=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=transparent&hide_border=true&text_color=ffffff&icon_color=ffffff"
+                alt="GitHub Stats"
+                class="img-fluid"
+              />
+            </div>
+            <br />
+            <div class="github about-container">
+              <img
+                src="https://raw.githubusercontent.com/JagadeeswarJ/JagadeeswarJ/output/snake.svg"
+                alt="Snake animation"
+                class="img-fluid"
+                style="width: 800px; height: auto"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="mt-5">
+      <div class="container">
+        <h2>Work Experience</h2>
+        <div class="row">
+          <div class="col-md-12 mb-4">
+            <div class="glass-container" style="height: auto; padding: 30px">
+              <div class="content">
+                <div
+                  class="d-flex justify-content-between align-items-start flex-wrap"
+                >
+                  <div>
+                    <h4 style="margin-bottom: 5px">SDE Intern</h4>
+                    <h5 style="color: #ffffff; font-weight: 500">
+                      Realityrift Innovations (Remote)
+                    </h5>
+                  </div>
+                  <span
+                    style="color: #17a2b8; font-weight: 500; font-size: 1.1rem"
+                    >June 2025 – February 2026</span
+                  >
+                </div>
+                <p
+                  style="
+                    font-size: 0.95rem;
+                    color: rgba(255, 255, 255, 0.7);
+                    margin-top: 5px;
+                    margin-bottom: 15px;
+                  "
+                >
+                  <strong>Stack:</strong> TypeScript, AWS (Lambda, DynamoDB,
+                  EventBridge, CloudWatch, S3, SES), GCP (Vertex AI, Firebase),
+                  Next.js, Git
+                </p>
+                <ul
+                  style="
+                    text-align: left;
+                    color: rgba(255, 255, 255, 0.9);
+                    font-size: 1.1rem;
+                    line-height: 1.6;
+                    padding-left: 20px;
+                  "
+                >
+                  <li>
+                    Maintained and improved production stability across
+                    <strong>HelloAria (helloaria.in)</strong> — a serverless AI
+                    productivity assistant with deep Google Workspace
+                    integration running on a 35+ microservice architecture.
+                  </li>
+                  <li>
+                    <strong>Subscription Billing & Auth:</strong> Integrated
+                    end-to-end global subscription billing with Razorpay,
+                    PayPal, and Apple Pay. Resolved critical Firebase
+                    authentication and 2FA issues affecting sign-in flows.
+                  </li>
+                  <li>
+                    <strong>Reminder Delivery System:</strong> Built a reminder
+                    delivery system on AWS EventBridge + Lambda with
+                    configurable retry logic across user-preferred channels —
+                    WhatsApp, email, and dashboards.
+                  </li>
+                  <li>
+                    <strong>Vertex AI Pipelines:</strong> Constructed multimodal
+                    pipelines (image, audio, document) using Vertex AI/Google
+                    Gemini. Added invisible context injection for improved
+                    multi-turn conversation awareness. Built a meeting document
+                    generator that processes audio into structured Google Docs
+                    summaries (MoM generator).
+                  </li>
+                  <li>
+                    <strong>Admin Observability:</strong> Built internal admin
+                    analytics dashboards using CloudWatch metrics. Implemented
+                    Apple OAuth sign-in, dashboard chat interface, and REST APIs
+                    serving both web and native clients.
+                  </li>
+                  <li>
+                    Engineered and optimized multimodal AI prompts for
+                    conversation summarization, image analysis, and automated
+                    actions — significantly improving response accuracy and
+                    task-completion reliability.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="glass-container" style="height: auto; padding: 25px">
+              <div class="content">
+                <div
+                  class="d-flex justify-content-between align-items-start flex-wrap"
+                >
+                  <div>
+                    <h4 style="margin-bottom: 5px">Freelance Developer</h4>
+                    <h5 style="color: #ffffff; font-weight: 500">
+                      Absolute Laddoos
+                    </h5>
+                  </div>
+                  <span
+                    style="color: #17a2b8; font-weight: 500; font-size: 1rem"
+                    >May 2025 – June 2025</span
+                  >
+                </div>
+                <p
+                  style="
+                    font-size: 0.9rem;
+                    color: rgba(255, 255, 255, 0.7);
+                    margin-top: 5px;
+                    margin-bottom: 15px;
+                  "
+                >
+                  <strong>Stack:</strong> Next.js 15, Razorpay, Firebase, GCS,
+                  TypeScript
+                </p>
+                <ul
+                  style="
+                    text-align: left;
+                    color: rgba(255, 255, 255, 0.9);
+                    font-size: 1rem;
+                    line-height: 1.5;
+                    padding-left: 15px;
+                  "
+                >
+                  <li>
+                    Designed and deployed a full-stack e-commerce platform with
+                    Next.js 15 and Firebase, ensuring 99.9% transaction
+                    reliability.
+                  </li>
+                  <li>
+                    <strong>Payment Engineering:</strong> Implemented complete
+                    payment flows with Razorpay. Handled failed transactions and
+                    double-charges using Firebase transactions; built SHA-256
+                    duplicate-order prevention and race-condition-safe bulk
+                    order processing.
+                  </li>
+                  <li>
+                    <strong>Admin Dashboard & CDN:</strong> Built a
+                    comprehensive admin panel with bulk operations, coupon
+                    engine, geo-based pricing, and background order
+                    confirmation. Optimized image assets using GCS with Cloud
+                    CDN.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="glass-container" style="height: auto; padding: 25px">
+              <div class="content">
+                <div
+                  class="d-flex justify-content-between align-items-start flex-wrap"
+                >
+                  <div>
+                    <h4 style="margin-bottom: 5px">Developer</h4>
+                    <h5 style="color: #ffffff; font-weight: 500">
+                      SportsFest Registration
+                    </h5>
+                  </div>
+                  <span
+                    style="color: #17a2b8; font-weight: 500; font-size: 1rem"
+                    >Quasi-Work</span
+                  >
+                </div>
+                <p
+                  style="
+                    font-size: 0.9rem;
+                    color: rgba(255, 255, 255, 0.7);
+                    margin-top: 5px;
+                    margin-bottom: 15px;
+                  "
+                >
+                  <strong>Stack:</strong> React.js, Node.js, Express.js,
+                  Nodemailer, Razorpay, Firebase
+                </p>
+                <ul
+                  style="
+                    text-align: left;
+                    color: rgba(255, 255, 255, 0.9);
+                    font-size: 1rem;
+                    line-height: 1.5;
+                    padding-left: 15px;
+                  "
+                >
+                  <li>
+                    Maintained a full-stack registration platform for 200+
+                    participants with Firebase Realtime Database and
+                    Authentication.
+                  </li>
+                  <li>
+                    Implemented Razorpay webhook handling and backend
+                    refactoring, ensuring ₹3.8L+ revenue was reliably verified.
+                  </li>
+                  <li>
+                    Automated email notifications via Nodemailer and optimized
+                    form handling for a smoother, low-friction registration UX.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="mt-5">
+      <div class="container">
+        <h2>Key Projects</h2>
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <div
+              class="glass-container"
+              style="height: auto; padding-bottom: 25px"
+            >
+              <div class="img-wrapper" style="height: 250px">
+                <img
+                  src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80"
+                  alt="VNR Reports"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="content">
+                <h4>VNR Reports</h4>
+                <p
+                  style="text-align: left; font-size: 1.1rem; line-height: 1.5"
+                >
+                  A production-grade institutional reporting platform actively
+                  used by 20–25+ departments at VNRVJIET. Built dynamic
+                  JSONB-driven forms with Role-Based Access Control (RBAC) and
+                  GCS file uploads. Developed a server-side DOCX generator that
+                  compiles rich text and JSON data into formatted 50+ page
+                  reports with real-time tracking via Server-Sent Events (SSE).
+                </p>
+                <div style="text-align: left; margin-top: 15px">
+                  <span
+                    class="badge badge-info"
+                    style="
+                      font-size: 0.85rem;
+                      padding: 6px 12px;
+                      margin-right: 5px;
+                      margin-bottom: 5px;
+                    "
+                    >PostgreSQL</span
+                  >
+                  <span
+                    class="badge badge-info"
+                    style="
+                      font-size: 0.85rem;
+                      padding: 6px 12px;
+                      margin-right: 5px;
+                      margin-bottom: 5px;
+                    "
+                    >RBAC</span
+                  >
+                  <span
+                    class="badge badge-info"
+                    style="
+                      font-size: 0.85rem;
+                      padding: 6px 12px;
+                      margin-right: 5px;
+                      margin-bottom: 5px;
+                    "
+                    >GCS</span
+                  >
+                  <span
+                    class="badge badge-info"
+                    style="
+                      font-size: 0.85rem;
+                      padding: 6px 12px;
+                      margin-right: 5px;
+                      margin-bottom: 5px;
+                    "
+                    >SSE</span
+                  >
+                  <span
+                    class="badge badge-info"
+                    style="
+                      font-size: 0.85rem;
+                      padding: 6px 12px;
+                      margin-right: 5px;
+                      margin-bottom: 5px;
+                    "
+                    >TypeScript</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div
+              class="glass-container"
+              style="height: auto; padding-bottom: 25px"
+            >
+              <div class="img-wrapper" style="height: 250px">
+                <img
+                  src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80"
+                  alt="Agentic Evaluator"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="content">
+                <h4>Agentic Evaluator Engine</h4>
+                <p
+                  style="text-align: left; font-size: 1.1rem; line-height: 1.5"
+                >
+                  A fully automated multi-agent evaluation pipeline that scores
+                  system design diagrams using Descriptor, Evaluator, and MCQ
+                  Generator agents built on Vertex AI. Processed 70+ concurrent
+                  submissions at ~70s per evaluation, distributed across
+                  stateless workers with Firestore atomic transactions for
+                  lease-based concurrency.
+                </p>
+                <div style="text-align: left; margin-top: 15px">
+                  <span
+                    class="badge badge-info"
+                    style="
+                      font-size: 0.85rem;
+                      padding: 6px 12px;
+                      margin-right: 5px;
+                      margin-bottom: 5px;
+                    "
+                    >Vertex AI</span
+                  >
+                  <span
+                    class="badge badge-info"
+                    style="
+                      font-size: 0.85rem;
+                      padding: 6px 12px;
+                      margin-right: 5px;
+                      margin-bottom: 5px;
+                    "
+                    >Firestore</span
+                  >
+                  <span
+                    class="badge badge-info"
+                    style="
+                      font-size: 0.85rem;
+                      padding: 6px 12px;
+                      margin-right: 5px;
+                      margin-bottom: 5px;
+                    "
+                    >Concurrency Leasing</span
+                  >
+                  <span
+                    class="badge badge-info"
+                    style="
+                      font-size: 0.85rem;
+                      padding: 6px 12px;
+                      margin-right: 5px;
+                      margin-bottom: 5px;
+                    "
+                    >Python</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12 mb-4">
+            <div class="glass-container" style="height: auto; padding: 30px">
+              <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                  <div
+                    class="img-wrapper"
+                    style="height: 100%; min-height: 250px"
+                  >
+                    <img
+                      src="https://images.unsplash.com/photo-1563013544-824ae1d704d3?auto=format&fit=crop&w=1200&q=80"
+                      alt="Trovo Rewards"
+                      class="img-fluid"
+                      style="height: 100%; object-fit: cover"
+                    />
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="content" style="text-align: left">
+                    <h4 style="font-size: 1.7rem; margin-bottom: 10px">
+                      Trovo — Credit Card Rewards Platform
+                    </h4>
+                    <p
+                      style="
+                        font-size: 0.9rem;
+                        color: rgba(255, 255, 255, 0.6);
+                        margin-bottom: 15px;
+                      "
+                    >
+                      <strong>Full Stack Stack:</strong> React 18, TypeScript,
+                      Vite, Tailwind, TanStack Query, Express.js, Drizzle ORM,
+                      Supabase (PostgreSQL), Zod, Passport.js
+                    </p>
+                    <ul
+                      style="
+                        color: rgba(255, 255, 255, 0.9);
+                        font-size: 1.05rem;
+                        line-height: 1.5;
+                        padding-left: 20px;
+                      "
+                    >
+                      <li>
+                        <strong>Backend (Rebuilt from Scratch):</strong>
+                        Designed modular Rest APIs with separate domain modules,
+                        JWT-based stateless auth, Drizzle ORM, and Drizzle-Zod
+                        schema-driven runtime validation.
+                      </li>
+                      <li>
+                        <strong>Optimization:</strong> Built aggregated
+                        dashboard endpoints utilizing
+                        <code>Promise.all</code> to fan out parallel SQL queries
+                        in a single round trip, lowering dashboard cold-starts.
+                      </li>
+                      <li>
+                        <strong>Frontend (Refactored):</strong> Cleaned up a
+                        hackathon SPA into a production-shaped app with 8
+                        routes, 46 UI components, TanStack state management,
+                        client CSV exports, points trend charts, and an AI chat
+                        assistant.
+                      </li>
+                      <li>
+                        <strong>Scale:</strong> Fully multi-tenant database
+                        supporting 8 major Indian banks, 40+ card products, and
+                        30+ redemption pathways.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div
+              class="glass-container"
+              style="height: auto; padding-bottom: 25px"
+            >
+              <div class="img-wrapper" style="height: 250px">
+                <img
+                  src="https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80"
+                  alt="Emergency Detection"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="content">
+                <h4>Emergency Vehicle Detection System</h4>
+                <p
+                  style="text-align: left; font-size: 1.1rem; line-height: 1.5"
+                >
+                  Engineered a real-time computer vision pipeline to detect
+                  emergency vehicles, achieving 0.780 mAP@0.5 for ambulances
+                  (105% improvement over baseline). Implemented frame-skipping
+                  achieving 30-50+ FPS on standard hardware, with an integrated
+                  traffic light simulator that prioritizes emergency vehicles
+                  automatically.
+                </p>
+                <div style="text-align: left; margin-top: 15px">
+                  <span
+                    class="badge badge-info"
+                    style="
+                      font-size: 0.85rem;
+                      padding: 6px 12px;
+                      margin-right: 5px;
+                      margin-bottom: 5px;
+                    "
+                    >YOLOv8n</span
+                  >
+                  <span
+                    class="badge badge-info"
+                    style="
+                      font-size: 0.85rem;
+                      padding: 6px 12px;
+                      margin-right: 5px;
+                      margin-bottom: 5px;
+                    "
+                    >OpenCV</span
+                  >
+                  <span
+                    class="badge badge-info"
+                    style="
+                      font-size: 0.85rem;
+                      padding: 6px 12px;
+                      margin-right: 5px;
+                      margin-bottom: 5px;
+                    "
+                    >PyTorch</span
+                  >
+                  <span
+                    class="badge badge-info"
+                    style="
+                      font-size: 0.85rem;
+                      padding: 6px 12px;
+                      margin-right: 5px;
+                      margin-bottom: 5px;
+                    "
+                    >Streamlit</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div
+              class="glass-container"
+              style="height: auto; padding-bottom: 25px"
+            >
+              <div class="img-wrapper" style="height: 250px">
+                <img
+                  src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80"
+                  alt="OceanQuery"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="content">
+                <h4>OceanQuery</h4>
+                <p
+                  style="text-align: left; font-size: 1.1rem; line-height: 1.5"
+                >
+                  Full-stack web application for querying and visualizing
+                  complex oceanographic data using natural language. Backed by
+                  PostgreSQL with pgvector for semantic retrieval, rendering
+                  real-time interactive charts and geospatial maps.
+                </p>
+                <div style="text-align: left; margin-top: 15px">
+                  <span
+                    class="badge badge-info"
+                    style="
+                      font-size: 0.85rem;
+                      padding: 6px 12px;
+                      margin-right: 5px;
+                      margin-bottom: 5px;
+                    "
+                    >React</span
+                  >
+                  <span
+                    class="badge badge-info"
+                    style="
+                      font-size: 0.85rem;
+                      padding: 6px 12px;
+                      margin-right: 5px;
+                      margin-bottom: 5px;
+                    "
+                    >Node.js</span
+                  >
+                  <span
+                    class="badge badge-info"
+                    style="
+                      font-size: 0.85rem;
+                      padding: 6px 12px;
+                      margin-right: 5px;
+                      margin-bottom: 5px;
+                    "
+                    >pgvector</span
+                  >
+                  <span
+                    class="badge badge-info"
+                    style="
+                      font-size: 0.85rem;
+                      padding: 6px 12px;
+                      margin-right: 5px;
+                      margin-bottom: 5px;
+                    "
+                    >PostgreSQL</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div
+              class="glass-container"
+              style="height: auto; padding-bottom: 25px"
+            >
+              <div class="img-wrapper" style="height: 250px">
+                <img
+                  src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=600&q=80"
+                  alt="InfraOps"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="content">
+                <h4>InfraOps</h4>
+                <p
+                  style="text-align: left; font-size: 1.1rem; line-height: 1.5"
+                >
+                  A generative AI-powered SaaS platform for automated ticket
+                  classification in residential communities. Built with Google
+                  Gemini AI to classify maintenance categories with 90-95%+
+                  accuracy, reducing manual technician assignments by 70-75%.
+                  Features image-based issue recognition and spam/duplicate
+                  detection.
+                </p>
+                <div style="text-align: left; margin-top: 15px">
+                  <span
+                    class="badge badge-info"
+                    style="
+                      font-size: 0.85rem;
+                      padding: 6px 12px;
+                      margin-right: 5px;
+                      margin-bottom: 5px;
+                    "
+                    >Google Gemini</span
+                  >
+                  <span
+                    class="badge badge-info"
+                    style="
+                      font-size: 0.85rem;
+                      padding: 6px 12px;
+                      margin-right: 5px;
+                      margin-bottom: 5px;
+                    "
+                    >SaaS Architecture</span
+                  >
+                  <span
+                    class="badge badge-info"
+                    style="
+                      font-size: 0.85rem;
+                      padding: 6px 12px;
+                      margin-right: 5px;
+                      margin-bottom: 5px;
+                    "
+                    >Firebase</span
+                  >
+                  <span
+                    class="badge badge-info"
+                    style="
+                      font-size: 0.85rem;
+                      padding: 6px 12px;
+                      margin-right: 5px;
+                      margin-bottom: 5px;
+                    "
+                    >React</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div
+              class="glass-container"
+              style="height: auto; padding-bottom: 25px"
+            >
+              <div class="img-wrapper" style="height: 250px">
+                <img
+                  src="https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=600&q=80"
+                  alt="Univo"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="content">
+                <h4>Univo</h4>
+                <p
+                  style="text-align: left; font-size: 1.1rem; line-height: 1.5"
+                >
+                  Built during Webathon 2025 under a constrained 16-hour
+                  timeframe. Campus event management platform enabling students
+                  to discover, register for, and track events with role-based
+                  access, Razorpay ticketing, Nodemailer alerts, and
+                  gamification. Won 1st Place out of 50+ teams.
+                </p>
+                <div style="text-align: left; margin-top: 15px">
+                  <span
+                    class="badge badge-info"
+                    style="
+                      font-size: 0.85rem;
+                      padding: 6px 12px;
+                      margin-right: 5px;
+                      margin-bottom: 5px;
+                    "
+                    >React.js</span
+                  >
+                  <span
+                    class="badge badge-info"
+                    style="
+                      font-size: 0.85rem;
+                      padding: 6px 12px;
+                      margin-right: 5px;
+                      margin-bottom: 5px;
+                    "
+                    >Razorpay API</span
+                  >
+                  <span
+                    class="badge badge-info"
+                    style="
+                      font-size: 0.85rem;
+                      padding: 6px 12px;
+                      margin-right: 5px;
+                      margin-bottom: 5px;
+                    "
+                    >Nodemailer</span
+                  >
+                  <span
+                    class="badge badge-info"
+                    style="
+                      font-size: 0.85rem;
+                      padding: 6px 12px;
+                      margin-right: 5px;
+                      margin-bottom: 5px;
+                    "
+                    >Firebase</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact" class="text-light mt-3">
+      <h4>Designed & Developed<br />by</h4>
+      <h3
+        class="sig-text"
+        style="
+          color: #17a2b8;
+          font-weight: 700;
+          letter-spacing: 2px;
+          text-shadow: 0 0 10px rgba(23, 162, 184, 0.5);
+          margin-top: 15px;
+          margin-bottom: 25px;
+        "
+      >
+        JJ
+      </h3>
+      <div class="container">
+        <div class="col-md-12 text-center">
+          <a href="https://github.com/JagadeeswarJ" target="_blank"
+            ><i class="fab fa-github fa-lg text-light mr-3 social-icons"></i
+          ></a>
+          <a href="https://linkedin.com/in/JagadeeswarJ" target="_blank"
+            ><i class="fab fa-linkedin fa-lg text-light mr-3 social-icons"></i
+          ></a>
+          <a href="mailto:jagadeeswar079@gmail.com"
+            ><i class="far fa-envelope fa-lg text-light mr-3 social-icons"></i
+          ></a>
+          <a href="tel:+919700550849"
+            ><i class="fas fa-phone fa-lg text-light social-icons"></i
+          ></a>
+        </div>
+        <br />
+      </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
